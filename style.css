@@ -20,15 +20,27 @@ h1 {
     color: darkred;
 }
 
-p {
+.quote {
     font-size: small;
     width: 400px;
 
 } 
 
-p::before {
-    content: open-quote;
+.quote::before {
+    content: '"';
     color: darkred;
-    font-size: larger;
-    
+    font-size: 40px;
+    font-weight: bolder;
+    position: absolute;
+    top: -15px;
+    left: -1px;
+}
+
+.quote::after {
+    content: '"';
+    color: darkred;
+    font-size: 40px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50px;
 }
