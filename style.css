@@ -1,0 +1,34 @@
+.logo-custom{
+    width: 120px;
+    height: 80px;
+}
+
+.background-custom{
+   
+    background: url(./media/mountains.png), linear-gradient( rgba(255,255,255, 1),rgba(255,255,255, 0.2)), url(./media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Nova Square', cursive;
+    color: darkred;
+}
+
+p {
+    font-size: small;
+    width: 400px;
+
+} 
+
+p::before {
+    content: open-quote;
+    color: darkred;
+    font-size: larger;
+    
+}
