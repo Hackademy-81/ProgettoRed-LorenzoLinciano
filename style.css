@@ -1,11 +1,14 @@
+/* INIZIO NAVBAR */
 .logo-custom{
     width: 120px;
     height: 80px;
 }
+/* FINE NAVBAR */
 
+/* INIZIO HEADER */
 .background-custom{
    
-    background: url(./media/mountains.png), linear-gradient( rgba(255,255,255, 1),rgba(255,255,255, 0.2)), url(./media/switzerland-862870_1920.jpg);
+    background: url(./media/mountains2.png), linear-gradient( rgba(255,255,255, 1),rgba(255,255,255, 0.2)), url(./media/switzerland-862870_1920.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -15,7 +18,7 @@
 }
 
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Nova Square', cursive;
     color: darkred;
 }
@@ -44,3 +47,72 @@ h1 {
     position: absolute;
     top: 50px;
 }
+/* FINE HEADER */
+
+/* INIZO SEZIONE MAIN */
+/* CUSTOM ITEMS */
+
+.bg-custom {
+    background-color: #ECECEC;
+}
+
+.article-custom{
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+}
+
+.box-custom{
+    width: 250px;
+    height: 250px;
+}
+
+.color-custom {
+    color: darkred;
+}
+
+.p-custom {
+    border-bottom: 3px solid darkred;
+    margin-top: 8px;
+    position: relative;
+} 
+
+.p-custom::before {
+    position: absolute;
+    content: '';
+    width: 13px;
+    height: 13px;
+    border: 2px solid darkred;
+    background-color: white;
+    border-radius: 50%;
+    top: 34px;
+    right: 110px;
+}
+/* FINE CUSTOM ITEMS */
+
+/* INIZIO SECONDA SEZIONE  */
+.image-custom{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.custom-size {
+    font-size: small;
+}
+
+.align-custom {
+    text-align: right;
+}
+
+.row-custom {
+    /* margin-top: 100px; */
+}
+
+.btn-outline-custom {
+    background-color: darkred;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+}
+/* FINE SEZIONE MAIN */
