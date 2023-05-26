@@ -11,6 +11,7 @@
     background: url(./media/mountains2.png), linear-gradient( rgba(255,255,255, 1),rgba(255,255,255, 0.2)), url(./media/switzerland-862870_1920.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     justify-content: center;
@@ -58,8 +59,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .article-custom{
     width: 100%;
-    height: 100vh;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .box-custom{
@@ -92,13 +93,20 @@ h1,h2,h3,h4,h5,h6 {
 
 /* INIZIO SECONDA SEZIONE  */
 .image-custom{
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    background: url(./media/trees2.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 .custom-size {
     font-size: small;
+    padding-left: 30px;
+}
+
+.position-custom {
+    font-size: small;
+    padding-right: 30px;
 }
 
 .align-custom {
@@ -106,13 +114,52 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .row-custom {
-    /* margin-top: 100px; */
+    height: 90vh;
 }
 
 .btn-outline-custom {
     background-color: darkred;
     color: white;
-    display: inline-block;
-    justify-content: center;
+    display: block;
+    margin: 0px auto;
+    padding: 0px 25px;
 }
+
+/* INIZIO TIMELINE */
+.font-size-timeline {
+    font-size: small;
+    width: 450px;
+    padding-left: 5px;
+}
+
+.div-border {
+    border-left: 3px solid darkred;
+    margin-left: 15px;
+}
+
+.pallino {
+    position: relative;
+}
+
+.pallino::before {
+    position: absolute;
+    content: '';
+    width: 13px;
+    height: 13px;
+    border: 2px solid darkred;
+    background-color: white;
+    border-radius: 50%;
+    left: -13px;
+    bottom: 6px;
+}
+
+.image-timeline {
+    background: url(./media/single.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+
+/* FINE TIMELINE */
 /* FINE SEZIONE MAIN */
