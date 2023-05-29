@@ -58,15 +58,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .article-custom{
-    width: 100%;
     margin-top: 60px;
     margin-bottom: 60px;
 }
 
-.box-custom{
-    width: 250px;
-    height: 250px;
-}
 
 .color-custom {
     color: darkred;
@@ -74,8 +69,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .p-custom {
     border-bottom: 3px solid darkred;
-    margin-top: 8px;
     position: relative;
+    width: 150px;
 } 
 
 .p-custom::before {
@@ -86,8 +81,9 @@ h1,h2,h3,h4,h5,h6 {
     border: 2px solid darkred;
     background-color: white;
     border-radius: 50%;
-    top: 34px;
-    right: 110px;
+    top: -5px;
+    left: 50%;
+    transform: translatex(-50%);
 }
 /* FINE CUSTOM ITEMS */
 
@@ -155,11 +151,61 @@ h1,h2,h3,h4,h5,h6 {
 
 .image-timeline {
     background: url(./media/single.png);
-    background-position: bottom;
+    background-position-y: bottom;
+    background-position-x: right;
     background-size: contain;
     background-repeat: no-repeat;
     height: 75vh;
+
+}
+/* FINE TIMELINE */
+
+/* INIZIO SEZIONE OUR TEAM */
+.layout-card {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
-/* FINE TIMELINE */
+ .custom-position {
+    margin-top: 80px;
+    margin-bottom: 50px;
+} 
+
+.box {
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    padding: 3px;
+}
+/* FINE SEZIONE OUR TEAM */
+
+/* INIZIO SEZIONE OUR BENEFIT */
+.box-benefit-custom {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    padding: 5px;
+}
+
+.image-benefit-custom {
+    background: url(./media/other.png);
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 130vh;
+}
+/* FINE SEZIONE OUR BENEFIT */
+
+/* INIZIO FOOTER */
+.bg-footer {
+    background-color: darkred;
+    color: white;
+}
+
+/* FINE FOOTER */
+
 /* FINE SEZIONE MAIN */
