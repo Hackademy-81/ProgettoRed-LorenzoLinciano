@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: bolder;
     position: absolute;
     top: -15px;
-    left: -1px;
+    left: 4px;
 }
 
 .quote::after {
@@ -48,6 +48,41 @@ h1,h2,h3,h4,h5,h6 {
     position: absolute;
     top: 50px;
 }
+
+/* media queries */
+
+@media screen and (max-width: 767px) {
+
+    .quote {
+        font-size: small;
+        /* width: 400px; */
+    
+    } 
+    
+    .quote::before {
+        content: '"';
+        color: darkred;
+        font-size: 40px;
+        font-weight: bolder;
+        position: absolute;
+        top: -15px;
+        left: 21px;
+    }
+    
+    .quote::after {
+        content: '"';
+        color: darkred;
+        font-size: 40px;
+        font-weight: bolder;
+        position: absolute;
+        top: 50px;
+        right: 16px;
+    }
+
+}
+
+
+
 /* FINE HEADER */
 
 /* INIZO SEZIONE MAIN */
