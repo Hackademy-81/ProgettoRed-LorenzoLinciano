@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .quote {
     font-size: small;
-    width: 400px;
+    /* width: 400px; */
 
 } 
 
@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6 {
 .p-custom {
     border-bottom: 3px solid darkred;
     position: relative;
-    width: 150px;
+    width: 50%;
 } 
 
 .p-custom::before {
@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5,h6 {
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
 }
 .custom-size {
     font-size: small;
@@ -110,7 +110,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .row-custom {
-    height: 90vh;
+    min-height: 90vh;
 }
 
 .btn-outline-custom {
@@ -124,7 +124,7 @@ h1,h2,h3,h4,h5,h6 {
 /* INIZIO TIMELINE */
 .font-size-timeline {
     font-size: small;
-    width: 450px;
+    /* width: 450px; */
     padding-left: 5px;
 }
 
@@ -196,7 +196,7 @@ h1,h2,h3,h4,h5,h6 {
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 130vh;
+    min-height: 115vh;
 }
 /* FINE SEZIONE OUR BENEFIT */
 
@@ -204,6 +204,7 @@ h1,h2,h3,h4,h5,h6 {
 .bg-footer {
     background-color: darkred;
     color: white;
+    min-height: 10vh;
 }
 
 /* FINE FOOTER */
